@@ -49,21 +49,30 @@ Este projeto é uma automação desenvolvida em **Python** utilizando a bibliote
 
 1. Clone este repositório:
 
-````bash git clone https://github.com/seu-usuario/automacao-olx-clone.git
-``` cd automacao-olx-clone
+```bash
+git clone https://github.com/seu-usuario/automacao-olx-clone.git
+```
+
+```bash
+cd automacao-olx-clone
+```
 
 2. Verifique se o caminho do ChromeDriver no app.py está correto:
- ```bash service = Service('/usr/bin/chromedriver') ```
-  ```bash Ajuste o caminho se necessário. ```
+
+```bash
+service = Service('/usr/bin/chromedriver')
+```
+
+Ajuste o caminho se necessário.
 
 3. Execute o script:
-```bash python3 app.py ```
+   `bash python3 app.py `
 
 4. O script abrirá o navegador, coletará os dados e gerará o arquivo produtos.csv.
 
-
 📊 Exemplo de Saída (Terminal)
-```bash Produto: Notebook Dell Inspiron - Preço: R$ 2.500 - Descrição: Notebook Dell com 8GB RAM - Cidade: São Paulo
+
+````bash Produto: Notebook Dell Inspiron - Preço: R$ 2.500 - Descrição: Notebook Dell com 8GB RAM - Cidade: São Paulo
 Produto: Smartphone Samsung S22 - Preço: R$ 3.000 - Descrição: Aparelho novo, lacrado - Cidade: Rio de Janeiro```
 
 ````
